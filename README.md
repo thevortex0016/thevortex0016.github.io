@@ -23,17 +23,17 @@ Rather than ending at a date, giveaway ends when we hit the target of specified 
 
 Stats are shown on channel list.
 
-1. Glock-18 | High Beam - on 100 Human Members
+1. Glock-18 | High Beam - on 100 Unique Members
 
 2. Glock-18 | Moonrise - on 200 Human Members
 
-3. Seal Team 6 Soldier | NSWC SEAL - on 300 Human Members
+3. Seal Team 6 Soldier | NSWC SEAL - on 300 Unique Members
 
-4. FAMAS | Valence - on 400 Human Members
+4. FAMAS | Valence - on 400 Unique Members
 
-5. Rezan The Ready | Sabre - on 500 Human Members
+5. Rezan The Ready | Sabre - on 500 Unique Members
 
-6. M4A4 | Griffin - on 750 Human Members
+6. M4A4 | Griffin - on 750 HUnique Members
 
 Also there is surprise item when we reach thousand members.
 
