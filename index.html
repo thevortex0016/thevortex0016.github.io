@@ -12,12 +12,15 @@
 
   <script src="https://kit.fontawesome.com/2778a3113e.js" crossorigin="anonymous"></script>
 </head>
+<style>
+  @font-face {
+    font-family: "gunMetal";
+    src: url(gunmetl.ttf);
+  }
+</style>
 
 <body>
   <div class="container">
-    <div class="headline">
-      <h1>1337 Gaming</h1>
-    </div>
     <div class="social-buttons">
       <!-- facebook  Button -->
       <a href="https://www.facebook.com/groups/1337gamingindia/" target="blank" class="social-margin">
@@ -68,31 +71,44 @@
         </div>
       </a>
     </div>
-    <div>
+    <div class="full-gt-banner">
       <a href="https://www.gametracker.com/server_info/tbonedm.1337gaming.me:27015/" target="_blank"><img
           src="https://cache.gametracker.com/server_info/tbonedm.1337gaming.me:27015/b_560_95_1.png" border="0"
           width="560" height="95" alt="" /></a>
+
+
+    </div>
+    <div class="mobile-gt-banner">
+      <a href="https://www.gametracker.com/server_info/tbonedm.1337gaming.me:27015/" target="_blank"><img
+          src="https://cache.gametracker.com/server_info/tbonedm.1337gaming.me:27015/b_160_400_0_ffffff_c5c5c5_ff9900_000000_1_0_0.png"
+          border="0" width="160" height="288" alt="" /></a>
     </div>
   </div>
 
 </body>
 <style>
-  @import url("https://fonts.googleapis.com/css?family=Notable&display=swap");
-
-  html,
-  body {
-    margin: 0;
-    height: 100%;
-    font-family: "Notable", sans-serif;
+  @media only screen and (min-width: 601px) {
+    .mobile-gt-banner {
+      display: none;
+    }
+    body {
+      margin: 0;
+      height: 100%;
+      font-family: "gunMetal", sans-serif;
+      background: url(1337bg.png), url(dark-background.jpg);
+      background-repeat: no-repeat, repeat;
+      background-size: cover;
+    }
   }
+
+
+
+
 
   .container {
     padding-top: 30px;
     min-height: 100%;
     text-align: center;
-    background: url('1337bg.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
   }
 
   .headline {
@@ -101,7 +117,7 @@
 
   .headline h1 {
     font-size: 35px;
-    font-family: "Notable", sans-serif;
+    font-family: "gunMetal", sans-serif;
     color: #fff;
   }
 
@@ -318,6 +334,30 @@
   .teamspeak:hover {
     background-color: #ffffff;
     color: #3b5998;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      margin: 0;
+      height: 100%;
+      font-family: "gunMetal", sans-serif;
+      background: url(dark-background.jpg);
+      background-repeat: repeat;
+    }
+
+    .container {
+      text-align: left;
+    }
+
+    .social-buttons a {
+      display: block;
+    }
+    .full-gt-banner{
+      display: none;
+    }
+    .mobile-gt-banner {
+      display: inline;
+    }
   }
 </style>
 
